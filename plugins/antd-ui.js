@@ -1,6 +1,7 @@
 import Vue from 'vue'
-import Antd from 'ant-design-vue/lib'
+import { Button, message } from 'ant-design-vue/lib'
 
 export default () => {
-  Vue.use(Antd)
+  Vue.use(Button)
+  Vue.prototype.$message = message
 }
